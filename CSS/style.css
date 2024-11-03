@@ -3,6 +3,10 @@
    padding: 0;
 }
 
+section{
+    margin: 15px;
+}
+
 h1{
     margin: 15px 35px;
     font-size: 3rem;
@@ -23,4 +27,34 @@ p{
 p span{
     color: #2C62E1; 
     font-weight: bold;
+}
+
+section div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+}
+
+section div span{
+    margin: 15px 0;
+    color: #2C62E1;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+section div a{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    width: 140px;
+    text-decoration: none;
+    transition: 1s;
+}
+
+div a:hover{
+    background-color: white;
+    border: 1px solid blue;
+    color: blue;
 }
