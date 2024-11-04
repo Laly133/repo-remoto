@@ -85,3 +85,6 @@ header ul li a{
     font-family: Arial, Helvetica, sans-serif;
     color: black;
 }
+header a :hover{
+    color: blue;
+}
