@@ -5,6 +5,8 @@
 
 section{
     margin: 15px;
+    display: flex;
+    justify-content: space-around;
 }
 
 h1{
@@ -57,4 +59,8 @@ div a:hover{
     background-color: white;
     border: 1px solid blue;
     color: blue;
+}
+
+section img{
+    width: 10rem;
 }
